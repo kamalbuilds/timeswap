@@ -17,8 +17,12 @@ import {TokenCallbackHandler} from "account-abstraction/samples/callback/TokenCa
 
 import {CustomSlotInitializable} from "./CustomSlotInitializable.sol";
 
+
+import { ITimeswapV2PeripheryNoDexAddLiquidityGivenPrincipal } from "../interfaces/ITimeswapV2PeripheryNoDexAddLiquidityGivenPrincipal.sol";
+import { ITimeswapV2PeripheryNoDexRemoveLiquidityGivenPosition } from "../interfaces/ITimeswapV2PeripheryNoDexRemoveLiquidityGivenPosition.sol";
+import { ITimeswapV2PeripheryNoDexCollect } from "../interfaces/ITimeswapV2PeripheryNoDexCollect.sol";
 /**
- * @title A simple ERC-4337 compatible smart contract account for Timeswap LPs with a designated owner account
+ * @title An advanced ERC-4337 compatible smart contract account for Timeswap LPs
  * @dev Like eth-infinitism's `SimpleAccount`, but with the following changes:
  *
  * 1. Instead of the default storage slots, uses namespaced storage to avoid
@@ -47,7 +51,7 @@ import {CustomSlotInitializable} from "./CustomSlotInitializable.sol";
  *
  * 5. Uses custom errors.
  */
-contract TimeswapLP is BaseAccount, TokenCallbackHandler, UUPSUpgradeable, CustomSlotInitializable, IERC1271 {
+contract TimeswapLP is BaseAccount, TokenCallbackHandler, UUPSUpgradeable, CustomSlotInitializable, IERC1271, ITimeswapV2PeripheryNoDexAddLiquidityGivenPrincipal , ITimeswapV2PeripheryNoDexRemoveLiquidityGivenPosition, ITimeswapV2PeripheryNoDexCollect {
     using ECDSA for bytes32;
 
     // keccak256(abi.encode(uint256(keccak256("light_account_v1.storage")) - 1)) & ~bytes32(uint256(0xff));
