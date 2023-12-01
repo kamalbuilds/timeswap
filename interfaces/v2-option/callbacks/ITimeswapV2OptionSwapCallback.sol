@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {TimeswapV2OptionSwapCallbackParam} from "../../structs/CallbackParam.sol";
+import {TimeswapV2OptionSwapCallbackParam} from "../structs/CallbackParam.sol";
 
 /// @title Callback for ITimeswapV2Option#swap
 /// @notice Any contract that calls ITimeswapV2Option#swap must implement this interface.

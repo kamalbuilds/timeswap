@@ -3,7 +3,7 @@ pragma solidity =0.8.8;
 
 import {ITimeswapV2PeripheryLendGivenPrincipal} from "@timeswap-labs/v2-periphery/contracts/interfaces/ITimeswapV2PeripheryLendGivenPrincipal.sol";
 
-import {TimeswapV2PeripheryNoDexLendGivenPrincipalParam} from "../structs/Param.sol";
+import {TimeswapV2PeripheryNoDexLendGivenPrincipalParam} from "./structs/Param.sol";
 
 import {INativePayments} from "./INativePayments.sol";
 import {IMulticall} from "./IMulticall.sol";

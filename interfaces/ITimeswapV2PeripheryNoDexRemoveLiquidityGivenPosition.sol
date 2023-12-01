@@ -7,7 +7,7 @@ import {FeesAndReturnedDelta, ExcessDelta} from "@timeswap-labs/v2-periphery/con
 import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {IMulticall} from "./IMulticall.sol";
 
-import {TimeswapV2PeripheryNoDexRemoveLiquidityGivenPositionParam} from "../structs/Param.sol";
+import {TimeswapV2PeripheryNoDexRemoveLiquidityGivenPositionParam} from "./structs/Param.sol";
 
 /// @title An interface for TS-V2 Periphery NoDex RemoveLiquidity.
 interface ITimeswapV2PeripheryNoDexRemoveLiquidityGivenPosition is

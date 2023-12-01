@@ -6,7 +6,7 @@ import {FeesAndReturnedDelta, ExcessDelta} from "@timeswap-labs/v2-periphery/con
 
 import {IMulticall} from "../IMulticall.sol";
 
-import {TimeswapV2PeripheryNoDexQuoterRemoveLiquidityGivenPositionParam} from "../../structs/lens/QuoterParam.sol";
+import {TimeswapV2PeripheryNoDexQuoterRemoveLiquidityGivenPositionParam} from "../structs/lens/QuoterParam.sol";
 
 /// @title An interface for TS-V2 Periphery NoDex RemoveLiquidity Quoter.
 interface ITimeswapV2PeripheryNoDexQuoterRemoveLiquidityGivenPosition is

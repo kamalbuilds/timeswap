@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {TimeswapV2PoolLeverageChoiceCallbackParam, TimeswapV2PoolLeverageCallbackParam} from "../../structs/CallbackParam.sol";
+import {TimeswapV2PoolLeverageChoiceCallbackParam, TimeswapV2PoolLeverageCallbackParam} from "../structs/CallbackParam.sol";
 
 /// @dev The interface that needs to be implemented by a contract calling the leverage function.
 interface ITimeswapV2PoolLeverageCallback {

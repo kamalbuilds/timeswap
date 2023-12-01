@@ -5,7 +5,7 @@ import {ITimeswapV2PeripheryQuoterCloseLendGivenPosition} from "@timeswap-labs/v
 
 import {IMulticall} from "../IMulticall.sol";
 
-import {TimeswapV2PeripheryNoDexQuoterCloseLendGivenPositionParam} from "../../structs/lens/QuoterParam.sol";
+import {TimeswapV2PeripheryNoDexQuoterCloseLendGivenPositionParam} from "../structs/lens/QuoterParam.sol";
 
 /// @title An interface for TS-V2 Periphery NoDex Close Lend Given Position.
 interface ITimeswapV2PeripheryNoDexQuoterCloseLendGivenPosition is
