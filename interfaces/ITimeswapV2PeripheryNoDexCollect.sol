@@ -6,7 +6,7 @@ import {ITimeswapV2PeripheryCollect} from "@timeswap-labs/v2-periphery/contracts
 import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {IMulticall} from "./IMulticall.sol";
 
-import {TimeswapV2PeripheryNoDexCollectParam} from "../structs/Param.sol";
+import {TimeswapV2PeripheryNoDexCollectParam} from "./structs/Param.sol";
 
 /// @title An interface for TS-V2 Periphery No Dex Collect.
 interface ITimeswapV2PeripheryNoDexCollect is ITimeswapV2PeripheryCollect, INativeWithdraws, IMulticall {

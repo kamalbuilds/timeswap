@@ -1,5 +1,5 @@
 # BRB Hackathon
-Your challenge is to design and implement Account Abstraction (AA) features for Timeswap Protocol, catering to the needs of Liquidity Providers (LPs) and facilitating the protocol's internal operations. For LPs, AA should offer enhanced gas efficiency, flexibility, and simplified token management, while for the protocol's internal use, a multi-sig AA wallet needs to be developed for efficient management of protocol assets (withdrawing protocol fees). The main objective of this problem statement is to ease the UX for LPs and for protocol’s us
+Your challenge is to design and implement Account Abstraction (AA) features for Timeswap Protocol, catering to the needs of Liquidity Providers (LPs) and facilitating the protocol's internal operations. For LPs, AA should offer enhanced gas efficiency, flexibility, and simplified token management, while for the protocol's internal use, a multi-sig AA wallet needs to be developed for efficient management of protocol assets (withdrawing protocol fees). The main objective of this problem statement is to ease the UX for LPs and for protocol’s users.
 
 ## Technicalities
 Most of the transactions in Timeswap V2 Protocol happens around these periphery smart contracts:
@@ -31,10 +31,10 @@ This function is used to close the borrow positions one owns. This function can 
 This function is used by Liquidity Providers to add liquidity to a particular pool. This creates Liquidity positions
 
 ### RemoveLiquidityGivenPosition
-This function is used by Liquidity Providers to close their liquidity positions after the pool has matured
+This function is used by Liquidity Providers to close their liquidity positions before the pool has matured
 
 ### Collect
-This function is used by Liquidity Providers to close their liquidity positions before the pool has matured
+This function is used by Liquidity Providers to close their liquidity positions after the pool has matured
 
 ### Withdraw
 This function is used by lenders to close their lending positions after maturity

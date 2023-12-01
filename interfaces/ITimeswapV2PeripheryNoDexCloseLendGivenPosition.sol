@@ -6,7 +6,7 @@ import {ITimeswapV2PeripheryCloseLendGivenPosition} from "@timeswap-labs/v2-peri
 import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {IMulticall} from "./IMulticall.sol";
 
-import {TimeswapV2PeripheryNoDexCloseLendGivenPositionParam} from "../structs/Param.sol";
+import {TimeswapV2PeripheryNoDexCloseLendGivenPositionParam} from "./structs/Param.sol";
 
 /// @title An interface for TS-V2 Periphery No Dex Close Lend Given Position.
 interface ITimeswapV2PeripheryNoDexCloseLendGivenPosition is

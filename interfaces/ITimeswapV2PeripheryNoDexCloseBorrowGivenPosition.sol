@@ -7,7 +7,7 @@ import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {INativePayments} from "./INativePayments.sol";
 import {IMulticall} from "./IMulticall.sol";
 
-import {TimeswapV2PeripheryNoDexCloseBorrowGivenPositionParam} from "../structs/Param.sol";
+import {TimeswapV2PeripheryNoDexCloseBorrowGivenPositionParam} from "./structs/Param.sol";
 
 /// @title An interface for TS-v2 Periphery No Dex Close Borrow Given Position.
 interface ITimeswapV2PeripheryNoDexCloseBorrowGivenPosition is

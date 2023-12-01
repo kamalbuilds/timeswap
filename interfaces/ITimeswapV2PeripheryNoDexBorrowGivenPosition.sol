@@ -3,7 +3,7 @@ pragma solidity =0.8.8;
 
 import {ITimeswapV2PeripheryBorrowGivenPosition} from "@timeswap-labs/v2-periphery/contracts/interfaces/ITimeswapV2PeripheryBorrowGivenPosition.sol";
 
-import {TimeswapV2PeripheryNoDexBorrowGivenPositionParam} from "../structs/Param.sol";
+import {TimeswapV2PeripheryNoDexBorrowGivenPositionParam} from "./structs/Param.sol";
 
 import {INativeWithdraws} from "./INativeWithdraws.sol";
 import {INativePayments} from "./INativePayments.sol";

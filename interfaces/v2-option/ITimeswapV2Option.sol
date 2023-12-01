@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {TimeswapV2OptionPosition} from "../enums/Position.sol";
-import {TimeswapV2OptionMintParam, TimeswapV2OptionBurnParam, TimeswapV2OptionSwapParam, TimeswapV2OptionCollectParam} from "../structs/Param.sol";
-import {StrikeAndMaturity} from "../structs/StrikeAndMaturity.sol";
+import {TimeswapV2OptionPosition} from "./enums/Position.sol";
+import {TimeswapV2OptionMintParam, TimeswapV2OptionBurnParam, TimeswapV2OptionSwapParam, TimeswapV2OptionCollectParam} from "./structs/Param.sol";
+import {StrikeAndMaturity} from "./structs/StrikeAndMaturity.sol";
 
 /// @title An interface for a contract that deploys Timeswap V2 Option pair contracts
 /// @notice A Timeswap V2 Option pair facilitates option mechanics between any two assets that strictly conform

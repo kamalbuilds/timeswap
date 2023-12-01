@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.8.8;
 
-import {TimeswapV2PoolMintChoiceCallbackParam, TimeswapV2PoolMintCallbackParam} from "../../structs/CallbackParam.sol";
+import {TimeswapV2PoolMintChoiceCallbackParam, TimeswapV2PoolMintCallbackParam} from "../structs/CallbackParam.sol";
 
 /// @dev The interface that needs to be implemented by a contract calling the mint function.
 interface ITimeswapV2PoolMintCallback {

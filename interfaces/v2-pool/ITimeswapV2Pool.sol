@@ -3,7 +3,7 @@ pragma solidity =0.8.8;
 
 import {StrikeAndMaturity} from "@timeswap-labs/v2-option/contracts/structs/StrikeAndMaturity.sol";
 
-import {TimeswapV2PoolCollectProtocolFeesParam, TimeswapV2PoolCollectTransactionFeesAndShortReturnedParam, TimeswapV2PoolMintParam, TimeswapV2PoolBurnParam, TimeswapV2PoolDeleverageParam, TimeswapV2PoolLeverageParam, TimeswapV2PoolRebalanceParam} from "../structs/Param.sol";
+import {TimeswapV2PoolCollectProtocolFeesParam, TimeswapV2PoolCollectTransactionFeesAndShortReturnedParam, TimeswapV2PoolMintParam, TimeswapV2PoolBurnParam, TimeswapV2PoolDeleverageParam, TimeswapV2PoolLeverageParam, TimeswapV2PoolRebalanceParam} from "./structs/Param.sol";
 
 /// @title An interface for Timeswap V2 Pool contract.
 interface ITimeswapV2Pool {

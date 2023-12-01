@@ -3,7 +3,7 @@ pragma solidity =0.8.8;
 
 import {ITimeswapV2PeripheryQuoterLendGivenPrincipal} from "@timeswap-labs/v2-periphery/contracts/interfaces/lens/ITimeswapV2PeripheryQuoterLendGivenPrincipal.sol";
 
-import {TimeswapV2PeripheryNoDexQuoterLendGivenPrincipalParam} from "../../structs/lens/QuoterParam.sol";
+import {TimeswapV2PeripheryNoDexQuoterLendGivenPrincipalParam} from "../structs/lens/QuoterParam.sol";
 
 import {IMulticall} from "../IMulticall.sol";
 
